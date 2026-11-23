@@ -1,0 +1,75 @@
+name: Radar Depositos - comprobar y actualizar TAE
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Cada hora, minuto 37 (UTC). GitHub puede retrasar la ejecucion.
+    - cron: '37 * * * *'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Evitar que dos publicaciones del radar se ejecuten a la vez.
+concurrency:
+  group: radar-pages
+  cancel-in-progress: false
+
+jobs:
+  comprobar-depositos:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.publicar.outputs.page_url }}
+
+    steps:
+      - name: Descargar archivos del repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+
+      - name: Verificar archivos necesarios
+        run: |
+          test -f monitor.py
+          test -f monitor_entidades.py
+          test -f data/offers.json
+          test -f index.html
+
+      - name: Revisar depositos y actualizar solo las TAE verificadas
+        shell: bash
+        run: |
+          # Si alguna web falla, el segundo monitor puede seguir revisando.
+          python monitor.py || echo 'AVISO: monitor principal sin resultados completos'
+          python monitor_entidades.py
+
+      - name: Guardar cambios detectados
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/offers.json data/monitor_state.json data/pending.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Radar: comprobacion y actualizacion de depositos'
+            git push origin HEAD:main
+          else
+            echo 'No hay cambios que guardar'
+          fi
+
+      - name: Preparar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Empaquetar web actualizada
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Publicar web actualizada
+        id: publicar
+        uses: actions/deploy-pages@v4
