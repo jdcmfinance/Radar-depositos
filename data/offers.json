@@ -2,10 +2,10 @@
   "meta": {
     "project": "RadarDepósitos",
     "snapshot_date": "2026-11-23",
-    "last_checked": "2026-11-23T20:11:09+00:00",
-    "last_success": "2026-11-23T20:11:09+00:00",
+    "last_checked": "2026-11-23T20:11:46+00:00",
+    "last_success": "2026-11-23T20:11:46+00:00",
     "monitor_enabled": true,
-    "monitor_details": "4 fuentes accesibles, 0 fallos, 0 cambios primarios publicados",
+    "monitor_details": "Monitor original + ampliación española: 3 accesibles, 1 fallos, 2 cambios. Openbank permanece en revisión manual por variantes de vinculación.",
     "version": 2
   },
   "offers": [
@@ -498,8 +498,8 @@
       "bank": "EBN Banco",
       "product": "Depósito Sinycon Plus 3 meses",
       "months": 3,
-      "tae": 2.4,
-      "tin": 2.38,
+      "tae": 2.7,
+      "tin": null,
       "minimum": 5000,
       "maximum": 400000,
       "country": "España",
@@ -542,8 +542,8 @@
       "bank": "EBN Banco",
       "product": "Depósito Sinycon Plus 12 meses",
       "months": 12,
-      "tae": 2.75,
-      "tin": 2.72,
+      "tae": 3.1,
+      "tin": null,
       "minimum": 5000,
       "maximum": 400000,
       "country": "España",
@@ -714,5 +714,18 @@
       "notes": "Tipo de 6 meses sin cumplir condiciones de ingreso recurrente; confirmar requisitos de incremento de saldo y vigencia."
     }
   ],
-  "events": []
+  "events": [
+    {
+      "bank": "EBN Banco",
+      "months": 3,
+      "message": "2.40% → 2.70% TAE",
+      "at": "2026-11-23T20:11:46+00:00"
+    },
+    {
+      "bank": "EBN Banco",
+      "months": 12,
+      "message": "2.75% → 3.10% TAE",
+      "at": "2026-11-23T20:11:46+00:00"
+    }
+  ]
 }
