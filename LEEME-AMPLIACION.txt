@@ -1,0 +1,36 @@
+RADAR DEPÓSITOS — AMPLIACIÓN DE ENTIDADES (23/11/2026)
+
+Este paquete NO está publicado en tu GitHub. Son archivos listos para incorporar.
+
+QUÉ INCLUYE
+• data/offers.json: 32 ofertas documentadas de 9 entidades, conservando las 14 ofertas del comparador anterior y sumando 18 nuevas.
+• monitor_entidades.py: supervisa fuentes oficiales de WiZink, Cetelem y EBN Banco; Openbank queda con comprobación manual por la coexistencia de dos tipos según vinculación.
+• .github/workflows/check-deposits.yml: revisa fuentes y publica GitHub Pages cada hora de forma aproximada.
+
+ENTIDADES Y OFERTAS AÑADIDAS
+WiZink: 12/18/25/36 meses; Black Friday 18 meses hasta 30/11/2026.
+Cetelem: 3/6/12/24 meses; la página oficial contiene ejemplos fechados 01/12/2026. VERIFICAR VIGENCIA Y DISPONIBILIDAD ACTUAL antes de considerar las rentabilidades contratables.
+EBN Banco: Sinycon Plus 3/6/12/18/24/36/42/48 meses.
+Openbank: depósito a 6 meses con y sin vinculación (TAE distintas).
+
+INSTALACIÓN
+1. Haz copia de seguridad del repositorio actual.
+2. Descomprime este paquete en la carpeta raíz de tu repositorio Radar-depositos, manteniendo la estructura de carpetas. Sustituye el archivo data/offers.json después de comprobar que no hay actualizaciones más recientes que debas conservar.
+3. Haz commit y push a la rama main. El archivo index.html existente carga los datos desde data/offers.json.
+4. En GitHub, Settings > Pages, selecciona 'GitHub Actions' como fuente (si aún no está seleccionado).
+5. En GitHub, Actions, elige 'Revisar depósitos y publicar web (cada hora)' y Run workflow.
+6. Comprueba el log de la ejecución y la web publicada. Las revisiones programadas de GitHub Actions pueden retrasarse o no ejecutarse en un ciclo determinado.
+
+ATENCIÓN
+• Ninguna tasa tiene actualización automática garantizada: depende de la disponibilidad y estructura de cada página del banco.
+• El monitor no altera una TAE si no consigue extraerla, y no publica oscilaciones de más de 1 punto porcentual sin revisión.
+• Si cambia una TAE y no se logra identificar el nuevo TIN, la TIN queda sin publicar para evitar mostrar datos antiguos.
+• Compara las condiciones completas, especialmente fondos de garantía, promociones, vinculación, fecha de vigencia y cancelación.
+• 32 ofertas NO equivalen a la totalidad del mercado. Pibank, Facto, Banco BiG, Banca March, Santander, Bankinter, BBVA, Sabadell, CaixaBank, ING y otras entidades quedan en lista de ampliación pendiente de revisión.
+• No confundas el depósito a plazo con cuentas remuneradas o depósitos combinados con fondos de inversión.
+
+FUENTES DIRECTAS
+WiZink: https://www.wizink.es/public/productos-ahorro/deposito-plazo-fijo
+Cetelem: https://www.cetelem.es/ahorro-y-depositos-cetelem
+EBN: https://www.ebnbanco.com/ahorro/deposito-sinycon-plus/
+Openbank: https://www.openbank.es/deposito-a-plazo-fijo/
