@@ -1,0 +1,26 @@
+{
+  "https://myinvestor.es/depositos/": {
+    "last_checked": "2026-11-23T13:15:36+00:00",
+    "fingerprint": "3dd28cb600120741450ac132571d088a7aca9b39157dbc351e87e6f2d12c32c3",
+    "status": "ok",
+    "last_success": "2026-11-23T13:15:36+00:00"
+  },
+  "https://renaultbank.es/": {
+    "last_checked": "2026-11-23T13:15:36+00:00",
+    "fingerprint": "d5eadbde1aff914c1cd4e1ab571de73e9bcdf3c6da47f79d7a119cefd9aaf49e",
+    "status": "ok",
+    "last_success": "2026-11-23T13:15:36+00:00"
+  },
+  "https://www.hoistspar.es/": {
+    "last_checked": "2026-11-23T13:15:36+00:00",
+    "fingerprint": "e82f1cbae42526a0f94d553fb3d7937ac17cc943de5cc6b70058496e69773263",
+    "status": "ok",
+    "last_success": "2026-11-23T13:15:36+00:00"
+  },
+  "https://www.raisin.com/es-es/noticias/depositos-cuentas-ahorro-suben-rentabilidad-noviembre-2026/": {
+    "last_checked": "2026-11-23T13:15:36+00:00",
+    "fingerprint": "6696fea786d9d97968958417036e16a24e624ab4352f5ea95796272d974105f1",
+    "status": "ok",
+    "last_success": "2026-11-23T13:15:36+00:00"
+  }
+}
