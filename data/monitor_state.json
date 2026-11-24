@@ -25,27 +25,27 @@
   },
   "sources": {
     "renault": {
-      "checked_at": "2026-11-24T20:10:29+00:00",
+      "checked_at": "2026-11-24T20:29:00+00:00",
       "result": "ok",
       "url": "https://renaultbank.es/"
     },
     "hoist": {
-      "checked_at": "2026-11-24T20:10:29+00:00",
+      "checked_at": "2026-11-24T20:29:00+00:00",
       "result": "ok",
       "url": "https://www.hoistspar.es/"
     },
     "raisin": {
-      "checked_at": "2026-11-24T20:10:29+00:00",
+      "checked_at": "2026-11-24T20:29:00+00:00",
       "result": "ok",
       "url": "https://www.raisin.com/es-es/depositos-a-plazo-fijo/"
     },
     "myinvestor": {
-      "checked_at": "2026-11-24T20:10:29+00:00",
+      "checked_at": "2026-11-24T20:29:00+00:00",
       "result": "ok",
       "url": "https://myinvestor.es/depositos/"
     },
     "wizink": {
-      "checked_at": "2026-11-24T19:36:43+00:00",
+      "checked_at": "2026-11-24T20:29:05+00:00",
       "result": "ok",
       "url": "https://www.wizink.es/public/productos-ahorro/deposito-plazo-fijo",
       "verified_months": [
@@ -56,13 +56,13 @@
       ]
     },
     "cetelem": {
-      "checked_at": "2026-11-24T19:36:43+00:00",
+      "checked_at": "2026-11-24T20:29:05+00:00",
       "result": "error",
       "url": "https://www.cetelem.es/ahorro-y-depositos-cetelem",
       "detail": "No se pudo extraer ninguna TAE con suficiente fiabilidad"
     },
     "ebn": {
-      "checked_at": "2026-11-24T19:36:43+00:00",
+      "checked_at": "2026-11-24T20:29:05+00:00",
       "result": "ok",
       "url": "https://www.ebnbanco.com/ahorro/deposito-sinycon-plus/",
       "verified_months": [
@@ -77,7 +77,7 @@
       ]
     },
     "openbank": {
-      "checked_at": "2026-11-24T19:36:43+00:00",
+      "checked_at": "2026-11-24T20:29:05+00:00",
       "result": "revision_manual",
       "url": "https://www.openbank.es/deposito-a-plazo-fijo/",
       "verified_months": []
