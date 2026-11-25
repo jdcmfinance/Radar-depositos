@@ -25,22 +25,23 @@
   },
   "sources": {
     "renault": {
-      "checked_at": "2026-11-25T06:29:33+00:00",
-      "result": "ok",
+      "checked_at": "2026-11-25T07:30:49+00:00",
+      "result": "error",
+      "detail": "HTTPSConnectionPool(host='renaultbank.es', port=443): Read timed out. (read timeout=22)",
       "url": "https://renaultbank.es/"
     },
     "hoist": {
-      "checked_at": "2026-11-25T06:29:33+00:00",
+      "checked_at": "2026-11-25T07:30:49+00:00",
       "result": "ok",
       "url": "https://www.hoistspar.es/"
     },
     "raisin": {
-      "checked_at": "2026-11-25T06:29:33+00:00",
+      "checked_at": "2026-11-25T07:30:49+00:00",
       "result": "ok",
       "url": "https://www.raisin.com/es-es/depositos-a-plazo-fijo/"
     },
     "myinvestor": {
-      "checked_at": "2026-11-25T06:29:33+00:00",
+      "checked_at": "2026-11-25T07:30:49+00:00",
       "result": "ok",
       "url": "https://myinvestor.es/depositos/"
     },
