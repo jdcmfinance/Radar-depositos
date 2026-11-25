@@ -1,3 +1,158 @@
 {
-  "candidates": []
+  "candidates": [
+    {
+      "bank": "BankB",
+      "months": 48,
+      "source_url": "https://www.raisin.com/es-es/bancos/bank-b/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([], [3.55])",
+      "published_rates": [],
+      "observed_rates": [
+        3.55
+      ],
+      "detected_at": "2026-11-25T21:21:27+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "BankB",
+      "months": 60,
+      "source_url": "https://www.raisin.com/es-es/bancos/bank-b/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([], [3.6])",
+      "published_rates": [],
+      "observed_rates": [
+        3.6
+      ],
+      "detected_at": "2026-11-25T21:21:27+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "Nordax Bank",
+      "months": 3,
+      "source_url": "https://www.raisin.com/es-es/bancos/nordax-bank-ab-publ/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([], [2.0])",
+      "published_rates": [],
+      "observed_rates": [
+        2.0
+      ],
+      "detected_at": "2026-11-25T21:21:27+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "Nordax Bank",
+      "months": 6,
+      "source_url": "https://www.raisin.com/es-es/bancos/nordax-bank-ab-publ/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([], [1.91])",
+      "published_rates": [],
+      "observed_rates": [
+        1.91
+      ],
+      "detected_at": "2026-11-25T21:21:27+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "Nordax Bank",
+      "months": 9,
+      "source_url": "https://www.raisin.com/es-es/bancos/nordax-bank-ab-publ/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([], [1.88])",
+      "published_rates": [],
+      "observed_rates": [
+        1.88
+      ],
+      "detected_at": "2026-11-25T21:21:27+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "Nordax Bank",
+      "months": 12,
+      "source_url": "https://www.raisin.com/es-es/bancos/nordax-bank-ab-publ/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([], [2.0])",
+      "published_rates": [],
+      "observed_rates": [
+        2.0
+      ],
+      "detected_at": "2026-11-25T21:21:27+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "Avarda Bank",
+      "months": 6,
+      "source_url": "https://www.raisin.com/es-es/bancos/avarda-bank/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([], [2.87])",
+      "published_rates": [],
+      "observed_rates": [
+        2.87
+      ],
+      "detected_at": "2026-11-25T21:21:27+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "Avarda Bank",
+      "months": 24,
+      "source_url": "https://www.raisin.com/es-es/bancos/avarda-bank/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([], [3.05])",
+      "published_rates": [],
+      "observed_rates": [
+        3.05
+      ],
+      "detected_at": "2026-11-25T21:21:27+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "Avarda Bank",
+      "months": 36,
+      "source_url": "https://www.raisin.com/es-es/bancos/avarda-bank/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([], [3.05])",
+      "published_rates": [],
+      "observed_rates": [
+        3.05
+      ],
+      "detected_at": "2026-11-25T21:21:27+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "Avarda Bank",
+      "months": 48,
+      "source_url": "https://www.raisin.com/es-es/bancos/avarda-bank/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([], [3.15])",
+      "published_rates": [],
+      "observed_rates": [
+        3.15
+      ],
+      "detected_at": "2026-11-25T21:21:27+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "Avarda Bank",
+      "months": 60,
+      "source_url": "https://www.raisin.com/es-es/bancos/avarda-bank/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([], [3.25])",
+      "published_rates": [],
+      "observed_rates": [
+        3.25
+      ],
+      "detected_at": "2026-11-25T21:21:27+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    }
+  ]
 }

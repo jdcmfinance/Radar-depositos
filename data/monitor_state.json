@@ -25,27 +25,27 @@
   },
   "sources": {
     "renault": {
-      "checked_at": "2026-11-25T19:31:43+00:00",
+      "checked_at": "2026-11-25T21:21:20+00:00",
       "result": "ok",
       "url": "https://renaultbank.es/"
     },
     "hoist": {
-      "checked_at": "2026-11-25T19:31:43+00:00",
+      "checked_at": "2026-11-25T21:21:20+00:00",
       "result": "ok",
       "url": "https://www.hoistspar.es/"
     },
     "raisin": {
-      "checked_at": "2026-11-25T19:31:43+00:00",
+      "checked_at": "2026-11-25T21:21:20+00:00",
       "result": "ok",
       "url": "https://www.raisin.com/es-es/depositos-a-plazo-fijo/"
     },
     "myinvestor": {
-      "checked_at": "2026-11-25T19:31:43+00:00",
+      "checked_at": "2026-11-25T21:21:20+00:00",
       "result": "ok",
       "url": "https://myinvestor.es/depositos/"
     },
     "wizink": {
-      "checked_at": "2026-11-25T19:31:48+00:00",
+      "checked_at": "2026-11-25T21:21:24+00:00",
       "result": "ok",
       "url": "https://www.wizink.es/public/productos-ahorro/deposito-plazo-fijo",
       "verified_months": [
@@ -56,13 +56,13 @@
       ]
     },
     "cetelem": {
-      "checked_at": "2026-11-25T19:31:48+00:00",
+      "checked_at": "2026-11-25T21:21:24+00:00",
       "result": "error",
       "url": "https://www.cetelem.es/ahorro-y-depositos-cetelem",
       "detail": "No se pudo extraer ninguna TAE con suficiente fiabilidad"
     },
     "ebn": {
-      "checked_at": "2026-11-25T19:31:48+00:00",
+      "checked_at": "2026-11-25T21:21:24+00:00",
       "result": "ok",
       "url": "https://www.ebnbanco.com/ahorro/deposito-sinycon-plus/",
       "verified_months": [
@@ -77,10 +77,428 @@
       ]
     },
     "openbank": {
-      "checked_at": "2026-11-25T19:31:48+00:00",
+      "checked_at": "2026-11-25T21:21:24+00:00",
       "result": "revision_manual",
       "url": "https://www.openbank.es/deposito-a-plazo-fijo/",
       "verified_months": []
+    },
+    "ampliacion:https://cbnk.es/personas/depositos/nuevo-deposito-325": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://cbnk.es/personas/depositos/nuevo-deposito-325",
+      "bank": "CBNK",
+      "mode": "review",
+      "fingerprint": "c954b3d5458a662fbdf8dab5da58ebd05af8d769ae4420db0ad4757251274e94",
+      "result": "revision_manual"
+    },
+    "ampliacion:https://www.cbnk.es/personas/depositos/Deposito-extra-a-12-meses": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://www.cbnk.es/personas/depositos/Deposito-extra-a-12-meses",
+      "bank": "CBNK",
+      "mode": "review",
+      "fingerprint": "5cd7e9b7524327943644f7f490d943e28a9d55ed5c8d77c20aa572da3fca26ca",
+      "result": "revision_manual"
+    },
+    "ampliacion:https://avantio.bancamarch.es/es/depositos-bancarios/deposito-12-meses/": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://avantio.bancamarch.es/es/depositos-bancarios/deposito-12-meses/",
+      "bank": "Banca March",
+      "mode": "review",
+      "fingerprint": "298990977c7600b7cc84849e94737df326d5583a597febe570997e2ec05d6938",
+      "result": "revision_manual"
+    },
+    "ampliacion:https://avantio.bancamarch.es/es/depositos-bancarios/deposito-bonificado-12-meses/": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://avantio.bancamarch.es/es/depositos-bancarios/deposito-bonificado-12-meses/",
+      "bank": "Banca March",
+      "mode": "review",
+      "fingerprint": "742de4fc96e00e703c5c256987aaa39ecfdf450f338a96bc6d9dbaf44051a517",
+      "result": "revision_manual"
+    },
+    "ampliacion:https://www.pibank.es/": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://www.pibank.es/",
+      "bank": "Pibank",
+      "mode": "review",
+      "fingerprint": "ab079c92f20d13a31917add239a761bed469fccf464de87df7fee782e0544555",
+      "result": "revision_manual"
+    },
+    "ampliacion:https://www.ing.es/depositos-naranja": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://www.ing.es/depositos-naranja",
+      "bank": "ING",
+      "mode": "review",
+      "fingerprint": "c27219ca8647b61988ea401a143f94453f62b6ddfd57df555c18d30e835c426e",
+      "result": "revision_manual"
+    },
+    "ampliacion:https://www.raisin.com/es-es/bancos/bank-b/": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://www.raisin.com/es-es/bancos/bank-b/",
+      "bank": "BankB",
+      "mode": "review",
+      "fingerprint": "a42ffc3622e762e2165a9550f7823ca91b459c97214f6e049a786e51f774798e",
+      "result": "revision_manual",
+      "rates": {
+        "3": [
+          1.51
+        ],
+        "12": [
+          1.5
+        ],
+        "24": [
+          1.5
+        ],
+        "36": [
+          2.3
+        ],
+        "48": [
+          3.55
+        ],
+        "60": [
+          3.6
+        ],
+        "84": [
+          3.75
+        ],
+        "96": [
+          3.75
+        ],
+        "120": [
+          3.75
+        ]
+      }
+    },
+    "ampliacion:https://www.raisin.com/es-es/bancos/banca-profilo/": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://www.raisin.com/es-es/bancos/banca-profilo/",
+      "bank": "Banca Profilo",
+      "mode": "review",
+      "fingerprint": "59b4753719cfcb6771763fbe139a7da5338285e5348c7833efe23c009d9bbe16",
+      "result": "revision_manual",
+      "rates": {
+        "3": [
+          2.32,
+          2.47
+        ],
+        "6": [
+          2.97
+        ],
+        "12": [
+          3.31
+        ]
+      }
+    },
+    "ampliacion:https://www.raisin.com/es-es/bancos/ca-auto-bank/": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://www.raisin.com/es-es/bancos/ca-auto-bank/",
+      "bank": "CA Auto Bank",
+      "mode": "review",
+      "fingerprint": "81697e3a05b18c9b3b00a4bbe02407640fdf7c43986115bb07add03016b5b15f",
+      "result": "revision_manual",
+      "rates": {
+        "6": [
+          2.92
+        ],
+        "9": [
+          3.01
+        ],
+        "12": [
+          3.2
+        ],
+        "24": [
+          3.39
+        ],
+        "36": [
+          3.34
+        ]
+      }
+    },
+    "ampliacion:https://www.raisin.com/es-es/bancos/fjord-bank/": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://www.raisin.com/es-es/bancos/fjord-bank/",
+      "bank": "Fjord Bank",
+      "mode": "review",
+      "fingerprint": "bae506388c56f1bc0a061d689c3cca8053626284d1cc9d074ce517d7755a7a7a",
+      "result": "revision_manual",
+      "rates": {
+        "3": [
+          1.81
+        ],
+        "6": [
+          2.87
+        ],
+        "9": [
+          3.01
+        ],
+        "12": [
+          3.35
+        ],
+        "18": [
+          3.42
+        ],
+        "24": [
+          3.39
+        ],
+        "36": [
+          3.38
+        ],
+        "48": [
+          3.33
+        ],
+        "60": [
+          3.28
+        ]
+      }
+    },
+    "ampliacion:https://www.raisin.com/es-es/bancos/blu-or-bank-as/": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://www.raisin.com/es-es/bancos/blu-or-bank-as/",
+      "bank": "BluOr Bank",
+      "mode": "review",
+      "fingerprint": "31a7dd89a1cad7f967ce6dc006c3ab9e8d0d12ec76f925d81a075b6c8085163f",
+      "result": "revision_manual",
+      "rates": {
+        "3": [
+          0.01
+        ],
+        "6": [
+          2.87
+        ],
+        "9": [
+          2.91
+        ],
+        "12": [
+          3.2
+        ],
+        "24": [
+          3.3
+        ],
+        "36": [
+          1.96
+        ]
+      }
+    },
+    "ampliacion:https://www.raisin.com/es-es/bancos/banca-sistema/": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://www.raisin.com/es-es/bancos/banca-sistema/",
+      "bank": "Banca Sistema",
+      "mode": "review",
+      "fingerprint": "eb915cb34b610be7bea5c41a6c4ae986dd6b72f4ba542cb4acabaae46c176d43",
+      "result": "revision_manual",
+      "rates": {
+        "1": [
+          2.73
+        ],
+        "3": [
+          2.73
+        ],
+        "6": [
+          3.02
+        ],
+        "12": [
+          3.3
+        ],
+        "18": [
+          3.3
+        ],
+        "24": [
+          3.45
+        ],
+        "36": [
+          3.25
+        ],
+        "48": [
+          3.25
+        ],
+        "60": [
+          3.25
+        ],
+        "120": [
+          3.0
+        ]
+      }
+    },
+    "ampliacion:https://www.raisin.com/es-es/bancos/miraltabank/": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://www.raisin.com/es-es/bancos/miraltabank/",
+      "bank": "Miraltabank",
+      "mode": "review",
+      "fingerprint": "c73e58384166af75c46485fbf1f922e6d5c54687a034710189a5fe451185bd0d",
+      "result": "revision_manual",
+      "rates": {
+        "6": [
+          2.82
+        ],
+        "12": [
+          3.1
+        ],
+        "24": [
+          3.25
+        ],
+        "36": [
+          3.38
+        ]
+      }
+    },
+    "ampliacion:https://www.raisin.com/es-es/bancos/achmea-bank/": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://www.raisin.com/es-es/bancos/achmea-bank/",
+      "bank": "Achmea Bank",
+      "mode": "review",
+      "fingerprint": "647f445332161df77dcc86102c0f6d7eacf282838e9e6e451fcedabcdc832853",
+      "result": "revision_manual",
+      "rates": {
+        "9": [
+          2.66
+        ],
+        "12": [
+          2.85
+        ],
+        "24": [
+          3.35
+        ],
+        "36": [
+          3.42
+        ],
+        "48": [
+          3.52
+        ],
+        "60": [
+          3.53
+        ],
+        "72": [
+          3.51
+        ],
+        "84": [
+          3.55
+        ],
+        "96": [
+          3.5
+        ],
+        "108": [
+          3.51
+        ],
+        "120": [
+          3.53
+        ]
+      }
+    },
+    "ampliacion:https://www.raisin.com/es-es/bancos/haitong-bank-sa-sucursal-en-espana/": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://www.raisin.com/es-es/bancos/haitong-bank-sa-sucursal-en-espana/",
+      "bank": "Haitong Bank",
+      "mode": "review",
+      "fingerprint": "d5e779b6b29f700675a20f14f2fbe0661d6a60629b481d45624e6c05a92bf179",
+      "result": "revision_manual",
+      "rates": {
+        "3": [
+          1.58
+        ],
+        "6": [
+          1.58
+        ],
+        "9": [
+          1.57
+        ],
+        "12": [
+          1.57
+        ],
+        "18": [
+          1.62
+        ],
+        "24": [
+          3.1
+        ],
+        "36": [
+          3.14
+        ]
+      }
+    },
+    "ampliacion:https://www.raisin.com/es-es/bancos/klarna-bank-ab/": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://www.raisin.com/es-es/bancos/klarna-bank-ab/",
+      "bank": "Klarna",
+      "mode": "review",
+      "fingerprint": "a82fbc50dd5c7b50c7dfbfef99abeaa914584b2dddeef4e5a434566a9847e50b",
+      "result": "revision_manual",
+      "rates": {
+        "3": [
+          3.14
+        ],
+        "6": [
+          3.23
+        ],
+        "9": [
+          2.36
+        ],
+        "12": [
+          3.37
+        ],
+        "18": [
+          3.5
+        ],
+        "24": [
+          2.96
+        ],
+        "36": [
+          3.0
+        ],
+        "48": [
+          3.05
+        ]
+      }
+    },
+    "ampliacion:https://www.raisin.com/es-es/bancos/nordax-bank-ab-publ/": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://www.raisin.com/es-es/bancos/nordax-bank-ab-publ/",
+      "bank": "Nordax Bank",
+      "mode": "review",
+      "fingerprint": "dbdea058ce39e20a45bc3d6aa1497617c0d6ec738b1c2b0c4c784df3e2feec60",
+      "result": "revision_manual",
+      "rates": {
+        "3": [
+          2.0
+        ],
+        "6": [
+          1.91
+        ],
+        "9": [
+          1.88
+        ],
+        "12": [
+          2.0
+        ],
+        "24": [
+          3.05
+        ]
+      }
+    },
+    "ampliacion:https://www.raisin.com/es-es/bancos/avarda-bank/": {
+      "checked_at": "2026-11-25T21:21:27+00:00",
+      "url": "https://www.raisin.com/es-es/bancos/avarda-bank/",
+      "bank": "Avarda Bank",
+      "mode": "review",
+      "fingerprint": "8631a213bb6d28ba86160a257b34e41283f584a7908ab851f4c5664445ca18fe",
+      "result": "revision_manual",
+      "rates": {
+        "6": [
+          2.87
+        ],
+        "12": [
+          3.0
+        ],
+        "24": [
+          3.05
+        ],
+        "36": [
+          3.05
+        ],
+        "48": [
+          3.15
+        ],
+        "60": [
+          3.25
+        ]
+      }
     }
   }
 }
