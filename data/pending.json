@@ -153,6 +153,63 @@
       "detected_at": "2026-11-25T21:21:27+00:00",
       "status": "pendiente_revision",
       "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "Banca March",
+      "source_url": "https://avantio.bancamarch.es/es/depositos-bancarios/deposito-bonificado-12-meses/",
+      "kind": "cambio_contenido",
+      "signature": "3fd550dcbe486c53e8f8047a908a0fc698e422bddf254d2c20fa10fcc59cf50b",
+      "detected_at": "2026-11-25T23:09:52+00:00",
+      "status": "pendiente_revision",
+      "notes": "La página cambió; puede ser un cambio ajeno al depósito. Revisar manualmente."
+    },
+    {
+      "bank": "BluOr Bank",
+      "months": 6,
+      "source_url": "https://www.raisin.com/es-es/bancos/blu-or-bank-as/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([2.87], [3.26])",
+      "published_rates": [
+        2.87
+      ],
+      "observed_rates": [
+        3.26
+      ],
+      "detected_at": "2026-11-25T23:09:52+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "BluOr Bank",
+      "months": 9,
+      "source_url": "https://www.raisin.com/es-es/bancos/blu-or-bank-as/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([2.91], [3.16])",
+      "published_rates": [
+        2.91
+      ],
+      "observed_rates": [
+        3.16
+      ],
+      "detected_at": "2026-11-25T23:09:52+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "BluOr Bank",
+      "months": 12,
+      "source_url": "https://www.raisin.com/es-es/bancos/blu-or-bank-as/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([3.2], [3.6])",
+      "published_rates": [
+        3.2
+      ],
+      "observed_rates": [
+        3.6
+      ],
+      "detected_at": "2026-11-25T23:09:52+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
     }
   ]
 }
