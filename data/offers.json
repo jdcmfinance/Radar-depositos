@@ -2,8 +2,8 @@
   "meta": {
     "project": "RadarDepósitos",
     "snapshot_date": "2026-11-25",
-    "last_checked": "2026-11-26T15:20:07+00:00",
-    "last_success": "2026-11-26T15:20:07+00:00",
+    "last_checked": "2026-11-26T17:23:05+00:00",
+    "last_success": "2026-11-26T17:23:05+00:00",
     "monitor_enabled": true,
     "monitor_details": "6 fuentes monitor anterior sin error, 19 fuentes en revisión manual, 1 fallos. Cambios nuevos pendientes de revisión.",
     "version": 3
