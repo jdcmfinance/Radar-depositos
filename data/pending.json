@@ -210,6 +210,24 @@
       "detected_at": "2026-11-25T23:09:52+00:00",
       "status": "pendiente_revision",
       "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "Banca March",
+      "source_url": "https://avantio.bancamarch.es/es/depositos-bancarios/deposito-12-meses/",
+      "kind": "cambio_contenido",
+      "signature": "35d192989149b7d030e217a258099a27cf856d39cdb71dd2ada1693e598b0828",
+      "detected_at": "2026-11-26T00:00:37+00:00",
+      "status": "pendiente_revision",
+      "notes": "La página cambió; puede ser un cambio ajeno al depósito. Revisar manualmente."
+    },
+    {
+      "bank": "Banca March",
+      "source_url": "https://avantio.bancamarch.es/es/depositos-bancarios/deposito-bonificado-12-meses/",
+      "kind": "cambio_contenido",
+      "signature": "742de4fc96e00e703c5c256987aaa39ecfdf450f338a96bc6d9dbaf44051a517",
+      "detected_at": "2026-11-26T00:00:37+00:00",
+      "status": "pendiente_revision",
+      "notes": "La página cambió; puede ser un cambio ajeno al depósito. Revisar manualmente."
     }
   ]
 }
