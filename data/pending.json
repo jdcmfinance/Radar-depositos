@@ -228,6 +228,15 @@
       "detected_at": "2026-11-26T00:00:37+00:00",
       "status": "pendiente_revision",
       "notes": "La página cambió; puede ser un cambio ajeno al depósito. Revisar manualmente."
+    },
+    {
+      "bank": "Banca March",
+      "source_url": "https://avantio.bancamarch.es/es/depositos-bancarios/deposito-12-meses/",
+      "kind": "cambio_contenido",
+      "signature": "298990977c7600b7cc84849e94737df326d5583a597febe570997e2ec05d6938",
+      "detected_at": "2026-11-26T03:12:34+00:00",
+      "status": "pendiente_revision",
+      "notes": "La página cambió; puede ser un cambio ajeno al depósito. Revisar manualmente."
     }
   ]
 }
