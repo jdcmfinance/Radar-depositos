@@ -317,6 +317,15 @@
       "detected_at": "2026-11-27T00:11:52+00:00",
       "status": "pendiente_revision",
       "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "Pibank",
+      "source_url": "https://www.pibank.es/",
+      "kind": "cambio_contenido",
+      "signature": "1594e665f7ea37757fbd39ebfaa868626fa34c2e43891fafd960db42c9cb4f02",
+      "detected_at": "2026-11-27T10:22:54+00:00",
+      "status": "pendiente_revision",
+      "notes": "La página cambió; puede ser un cambio ajeno al depósito. Revisar manualmente."
     }
   ]
 }
