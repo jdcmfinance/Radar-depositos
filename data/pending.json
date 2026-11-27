@@ -326,6 +326,96 @@
       "detected_at": "2026-11-27T10:22:54+00:00",
       "status": "pendiente_revision",
       "notes": "La página cambió; puede ser un cambio ajeno al depósito. Revisar manualmente."
+    },
+    {
+      "bank": "Achmea Bank",
+      "months": 96,
+      "source_url": "https://www.raisin.com/es-es/bancos/achmea-bank/",
+      "kind": "plazo_no_encontrado",
+      "signature": "[3.5]",
+      "detected_at": "2026-11-27T16:23:56+00:00",
+      "status": "pendiente_revision",
+      "notes": "No retirar por ausencia en una consulta."
+    },
+    {
+      "bank": "Achmea Bank",
+      "months": 36,
+      "source_url": "https://www.raisin.com/es-es/bancos/achmea-bank/",
+      "kind": "plazo_no_encontrado",
+      "signature": "[3.42]",
+      "detected_at": "2026-11-27T16:23:56+00:00",
+      "status": "pendiente_revision",
+      "notes": "No retirar por ausencia en una consulta."
+    },
+    {
+      "bank": "Achmea Bank",
+      "months": 72,
+      "source_url": "https://www.raisin.com/es-es/bancos/achmea-bank/",
+      "kind": "plazo_no_encontrado",
+      "signature": "[3.51]",
+      "detected_at": "2026-11-27T16:23:56+00:00",
+      "status": "pendiente_revision",
+      "notes": "No retirar por ausencia en una consulta."
+    },
+    {
+      "bank": "Achmea Bank",
+      "months": 108,
+      "source_url": "https://www.raisin.com/es-es/bancos/achmea-bank/",
+      "kind": "plazo_no_encontrado",
+      "signature": "[3.51]",
+      "detected_at": "2026-11-27T16:23:56+00:00",
+      "status": "pendiente_revision",
+      "notes": "No retirar por ausencia en una consulta."
+    },
+    {
+      "bank": "Achmea Bank",
+      "months": 120,
+      "source_url": "https://www.raisin.com/es-es/bancos/achmea-bank/",
+      "kind": "plazo_no_encontrado",
+      "signature": "[3.53]",
+      "detected_at": "2026-11-27T16:23:56+00:00",
+      "status": "pendiente_revision",
+      "notes": "No retirar por ausencia en una consulta."
+    },
+    {
+      "bank": "Achmea Bank",
+      "months": 48,
+      "source_url": "https://www.raisin.com/es-es/bancos/achmea-bank/",
+      "kind": "plazo_no_encontrado",
+      "signature": "[3.52]",
+      "detected_at": "2026-11-27T16:23:56+00:00",
+      "status": "pendiente_revision",
+      "notes": "No retirar por ausencia en una consulta."
+    },
+    {
+      "bank": "Achmea Bank",
+      "months": 84,
+      "source_url": "https://www.raisin.com/es-es/bancos/achmea-bank/",
+      "kind": "plazo_no_encontrado",
+      "signature": "[3.55]",
+      "detected_at": "2026-11-27T16:23:56+00:00",
+      "status": "pendiente_revision",
+      "notes": "No retirar por ausencia en una consulta."
+    },
+    {
+      "bank": "Achmea Bank",
+      "months": 24,
+      "source_url": "https://www.raisin.com/es-es/bancos/achmea-bank/",
+      "kind": "plazo_no_encontrado",
+      "signature": "[3.35]",
+      "detected_at": "2026-11-27T16:23:56+00:00",
+      "status": "pendiente_revision",
+      "notes": "No retirar por ausencia en una consulta."
+    },
+    {
+      "bank": "Achmea Bank",
+      "months": 60,
+      "source_url": "https://www.raisin.com/es-es/bancos/achmea-bank/",
+      "kind": "plazo_no_encontrado",
+      "signature": "[3.53]",
+      "detected_at": "2026-11-27T16:23:56+00:00",
+      "status": "pendiente_revision",
+      "notes": "No retirar por ausencia en una consulta."
     }
   ]
 }
