@@ -2,8 +2,8 @@
   "meta": {
     "project": "RadarDepósitos",
     "snapshot_date": "2026-11-25",
-    "last_checked": "2026-11-27T06:17:49+00:00",
-    "last_success": "2026-11-27T06:17:49+00:00",
+    "last_checked": "2026-11-27T08:38:51+00:00",
+    "last_success": "2026-11-27T08:38:51+00:00",
     "monitor_enabled": true,
     "monitor_details": "6 fuentes monitor anterior sin error, 19 fuentes en revisión manual, 1 fallos. Cambios nuevos pendientes de revisión.",
     "version": 3
@@ -14,8 +14,8 @@
       "bank": "HoistSpar",
       "product": "Depósito a plazo",
       "months": 3,
-      "tae": 3.07,
-      "tin": 3.04,
+      "tae": 3.17,
+      "tin": 3.13,
       "minimum": 1,
       "maximum": 90000,
       "country": "Suecia",
@@ -58,8 +58,8 @@
       "bank": "HoistSpar",
       "product": "Depósito a plazo",
       "months": 12,
-      "tae": 3.51,
-      "tin": 3.51,
+      "tae": 3.6,
+      "tin": 3.6,
       "minimum": 1,
       "maximum": 90000,
       "country": "Suecia",
@@ -2566,6 +2566,18 @@
       "months": 12,
       "message": "2.75% → 3.10% TAE",
       "at": "2026-11-23T20:11:46+00:00"
+    },
+    {
+      "bank": "HoistSpar",
+      "months": 3,
+      "message": "3.07% → 3.17% TAE",
+      "at": "2026-11-27T08:38:43+00:00"
+    },
+    {
+      "bank": "HoistSpar",
+      "months": 12,
+      "message": "3.51% → 3.60% TAE",
+      "at": "2026-11-27T08:38:43+00:00"
     }
   ]
 }
