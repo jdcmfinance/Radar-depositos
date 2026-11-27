@@ -237,6 +237,86 @@
       "detected_at": "2026-11-26T03:12:34+00:00",
       "status": "pendiente_revision",
       "notes": "La página cambió; puede ser un cambio ajeno al depósito. Revisar manualmente."
+    },
+    {
+      "bank": "Banca Sistema",
+      "months": 3,
+      "source_url": "https://www.raisin.com/es-es/bancos/banca-sistema/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([2.73], [3.03])",
+      "published_rates": [
+        2.73
+      ],
+      "observed_rates": [
+        3.03
+      ],
+      "detected_at": "2026-11-27T00:11:52+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "Banca Sistema",
+      "months": 6,
+      "source_url": "https://www.raisin.com/es-es/bancos/banca-sistema/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([3.02], [3.28])",
+      "published_rates": [
+        3.02
+      ],
+      "observed_rates": [
+        3.28
+      ],
+      "detected_at": "2026-11-27T00:11:52+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "Banca Sistema",
+      "months": 12,
+      "source_url": "https://www.raisin.com/es-es/bancos/banca-sistema/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([3.3], [3.4])",
+      "published_rates": [
+        3.3
+      ],
+      "observed_rates": [
+        3.4
+      ],
+      "detected_at": "2026-11-27T00:11:52+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "Banca Sistema",
+      "months": 18,
+      "source_url": "https://www.raisin.com/es-es/bancos/banca-sistema/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([3.3], [3.5])",
+      "published_rates": [
+        3.3
+      ],
+      "observed_rates": [
+        3.5
+      ],
+      "detected_at": "2026-11-27T00:11:52+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
+    },
+    {
+      "bank": "Banca Sistema",
+      "months": 24,
+      "source_url": "https://www.raisin.com/es-es/bancos/banca-sistema/",
+      "kind": "cambio_o_nueva_variante",
+      "signature": "([3.45], [3.5])",
+      "published_rates": [
+        3.45
+      ],
+      "observed_rates": [
+        3.5
+      ],
+      "detected_at": "2026-11-27T00:11:52+00:00",
+      "status": "pendiente_revision",
+      "notes": "No publicado automáticamente; verificar producto, vigencia y condiciones."
     }
   ]
 }
